@@ -5,7 +5,7 @@ layout: default
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 
-[Link to another page](./preview/index.html).
+[Link to another page](./docs/SUPPORT.md).
 
 There should be whitespace between paragraphs.
 
