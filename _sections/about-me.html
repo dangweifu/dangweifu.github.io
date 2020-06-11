@@ -3,12 +3,38 @@ title: About Me
 icon: fa-user
 order: 3
 ---
-
-<a href="#" class="image featured"><img src="assets/images/pic08.jpg" alt="" /></a>
-
-<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-ornare iaculis.</p>
+<script>
+    function switchTips(type) {
+        if ('c' === type){
+            $("#chinese_tip").hide();
+            $("#english_tip").show();
+            $("#chinese_c").show();
+            $("#english_c").hide();
+        }else {
+            $("#chinese_tip").hide();
+            $("#english_tip").show();
+            $("#chinese_c").hide();
+            $("#english_c").show();
+        }
+    }
+</script>
+<a href="#" class="image featured" ><img src="/assets/images/me/me_4.jpeg" alt="" /></a>
+<p id="chinese_tip" style="margin-bottom: 0;text-align: right;" onclick="switchTips('c')">Switch to Chinese</p>
+<p id="english_tip" style="margin-bottom: 0;text-align: right;display: none" onclick="switchTips('e')">Switch to English</p>
+<p id="english_c">Hello everyone, welcome to my personal website. It is my great honor to be here to introduce myself to you.
+    Well, without further ado, let's get to the point: I'm a country made in China, with a 5,000-year-old Chinese civilization,
+    The net height is 180, the net weight is 100, and you can imagine the units. The main components include a powerful
+    computing center, a developed mechanical arm, a complete oil circulation system and a highly resistant digestive
+    system, as well as many sophisticated components, which I won't go into here. If I have the opportunity to get to
+    know me in detail, I personally would like to have close contact with you, especially the beautiful little girls.
+    The body's various parts are complete, stable operation, after 26 years of high-intensity operation is still lifelike,
+    belongs to Products of reliable quality. This product has complete formalities and can be refunded and replaced
+    indefinitely. Now because of the development needs, sincerely recruit like-minded, interested people please contact!
+</p>
+<p id="chinese_c" style="display: none">
+    大家好，欢迎来到我的个人网站，非常有幸能在此向大家介绍自己。好了废话不多说，直奔主题：我是中国制造的，拥有5000年华夏文明的国家，
+    净高180，净重100，单位你们就自己脑补吧。主要组件有强大的运算中心、发达的机械臂、完善的石油循环系统以及耐受力极强的消化系统，
+    还有很多精密的部件，这里就不一一介绍了，有机会可以近距离接触来详细了解我，我个人是非常愿意同你们近距离接触的，尤其是
+    各位美丽的小姐姐。身上的各个零部件齐全，运转稳定，经过26年的高强度运转依旧栩栩如生，属
+    质量信得过的产品。该产品手续齐全，无限期包退包换。现因发展需要，诚招志同道合者，有意者请联系!
+</p>
