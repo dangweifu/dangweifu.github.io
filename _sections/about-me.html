@@ -12,8 +12,8 @@ order: 3
             $("#chinese_c").show();
             $("#english_c").hide();
         }else {
-            $("#chinese_tip").hide();
-            $("#english_tip").show();
+            $("#chinese_tip").show();
+            $("#english_tip").hide();
             $("#chinese_c").hide();
             $("#english_c").show();
         }
@@ -22,7 +22,7 @@ order: 3
 <a href="#" class="image featured" ><img src="/assets/images/me/me_4.jpeg" alt="" /></a>
 <p style="margin-bottom: 0;text-align: right;" >
     <button id="chinese_tip" onclick="switchTips('c')">Switch to Chinese</button>
-    <button id="english_tip" style="margin-bottom: 0;text-align: right;display: none" onclick="switchTips('e')">Switch to English</button>
+    <button id="english_tip" style="display: none" onclick="switchTips('e')">Switch to English</button>
 </p>
 <p id="english_c">Hello everybody, welcome to my personal website. It is my great honor to be here to introduce myself to you.
     Well, without further ado, let's get to the point: I'm a country made in China, with a 5,000-year-old Chinese civilization,
