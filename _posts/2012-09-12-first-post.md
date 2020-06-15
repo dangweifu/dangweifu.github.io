@@ -1,5 +1,5 @@
 ---
-title: First Post
+title: Java十三种规范
 author: WiuLuS
 layout: post
 ---
